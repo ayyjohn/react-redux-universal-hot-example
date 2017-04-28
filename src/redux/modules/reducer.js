@@ -8,6 +8,7 @@ import auth from './auth';
 import counter from './counter';
 import {reducer as form} from 'redux-form';
 import info from './info';
+import weather from './weather';
 import widgets from './widgets';
 
 export default combineReducers({
@@ -22,5 +23,6 @@ export default combineReducers({
   }),
   info,
   pagination,
-  widgets
+  widgets,
+  weather
 });

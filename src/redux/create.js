@@ -35,6 +35,5 @@ export default function createStore(history, client, data) {
       store.replaceReducer(require('./modules/reducer'));
     });
   }
-
   return store;
 }
